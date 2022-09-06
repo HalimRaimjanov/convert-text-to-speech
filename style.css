@@ -1,9 +1,19 @@
+.container {
+    min-height: 100%;
+
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 main {
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     height: 500px;
     width: 400px;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px 5px rgb(54,22,109);
+    box-shadow: 0px 0px 20px 5px rgb(54, 22, 109);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -12,9 +22,9 @@ main {
 
 .title {
     font-size: 2rem;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: rgb(48,48,48);
+    color: rgb(48, 48, 48);
 }
 
 .text-section {
@@ -26,9 +36,9 @@ main {
 }
 
 .text-title {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: rgb(36,36,36);
+    color: rgb(36, 36, 36);
     align-self: start;
 }
 
@@ -36,11 +46,11 @@ main {
     height: 7rem;
     width: 20rem;
     border: none;
-    outline: 2px solid rgba(128,128,128,0.623);
+    outline: 2px solid rgba(128, 128, 128, 0.623);
     border-radius: 0.5rem;
     resize: none;
     font-size: 15px;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 8px 10px;
 }
 
@@ -53,9 +63,9 @@ main {
 }
 
 .voice-title {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: rgb(36,36,36);
+    color: rgb(36, 36, 36);
     align-self: start;
 }
 
@@ -63,13 +73,13 @@ main {
     height: 3rem;
     width: 20rem;
     border: none;
-    outline: 2px solid rgba(128,128,128,0.623);
+    outline: 2px solid rgba(128, 128, 128, 0.623);
     border-radius: 0.4rem;
     padding: 0px 10px;
 }
 
 .submit {
-    background-color: rgba(9,55,225,0.979);
+    background-color: rgba(9, 55, 225, 0.979);
     color: white;
     width: 20rem;
     height: 3rem;
